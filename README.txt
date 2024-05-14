@@ -67,8 +67,7 @@ Description: -
 6. videosapp/models.py
   - Create my models: 
 	- User: stores users (Users can have either a VIEWER Role or VIDEO_ADMIN role).
-	- Video: stores videos data (title, description, cast, director, image, release date, timestamp, modified timestamp, saved By,
-			 			genre choice[Action, Animation, Comedy, Drama, Romance, SciFi, UnSpecified ], media choice[Movie, TV show])
+	- Video: stores videos data (title, description, cast, director, image, release date, timestamp, modified timestamp, saved By, genre choice[Action, Animation, Comedy, Drama, Romance, SciFi, UnSpecified ], media choice[Movie, TV show])
 		- There is a Unique constraint on the video title.
 	- Mylist: A User can add/ remove movies to/ from his/ her list for later viewing. 
 	- Like: A user can Like or Unlike a Video.
