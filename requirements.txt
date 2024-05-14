@@ -1,0 +1,37 @@
+I built my frontend project learning React JS and used JWT token for authentication with the django backend running at port 8000. 
+I submitted my assignment with all my source code and removed the node_modules dependencies folder from the frontend project videos\videosui.
+
+Please add the following dependencies to run the backend and frontend projects: -
+
+1. Django backend project: -
+
+# Create the Virtual environment:
+python -m venv <Virtual Environment Name>
+
+# Activate the Virtual Environment.
+<Virtual Environment Name>\scripts\activate
+
+# Install the following Python packages:
+ 	- Django, 
+ 	- Django REST framework, 
+	- Django REST framework simple JWT and 
+	- Django CORS headers. 
+
+pip install Django
+pip install djangorestframework
+pip install djangorestframework-simplejwt
+pip install django-cors-headers
+
+The Django REST framework package is used to create the API.
+The Django REST framework simple JWT gives the ability to generate the JWT Token.
+The Django CORS headers package is used to avoid CORS related issues.
+
+
+2. ReactJS frontend project: -
+
+Please run the following commands to download dependencies and run the project: -
+
+1. [Path-to-project-folder]\videos\videosui> npm install react-scripts --save
+2. [Path-to-project-folder]\videos\videosui> npm install axios
+3. [Path-to-project-folder]\videos\videosui> npm install --save bootstrap
+4. [Path-to-project-folder]\videos\videosui> npm run-script start
