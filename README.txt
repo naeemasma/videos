@@ -1,4 +1,4 @@
-1. I used Python and React JS  to implement a few pages of a Video streaming service that allows users to search movies and TV shows. 
+1. I used Python and React JS  to implement a few pages of a Video streaming service that allows users to search movies and TV shows. https://youtu.be/CsvArf0AwS4, https://youtu.be/KA6iYlRra2M
 2. Here is the directory structure: -
 	videos-
 		|-videosprj	
