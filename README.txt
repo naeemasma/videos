@@ -106,7 +106,7 @@ Description: -
 
 16. videosui/src/component/userRegistration.js: Write the code for user registration functionality using Django backend API thru axios.
 
-17. videosui/src/component/videos.js: Write the code to display videos. I used useState, useRef, and useCallback hooks to implement **`infinite scrolling`** and used useLocation hook to read query parameters for search text and sorting order.
+17. videosui/src/component/videos.js: Write the code to display videos. I used useState, useRef, and useCallback hooks to implement "INFINITE SCROLLING" and used useLocation hook to read query parameters for search text and sorting order.
 We used our custom hook useVideos to fetch videos.
 
 18. videosui/src/component/useVideos.js: Create a custom hook to fetch data from Django backend REST API. It will handle loading and error state.
@@ -125,8 +125,4 @@ We used our custom hook useVideos to fetch videos.
 
 21. videosui/src/index.js: Add the interceptor location in our index.js file.
 
-22. videosui/src/component/logout.js: I used the useEffect hook. Whenever we click the logout button, it calls the backend logout API, removes all the tokens from local storage, and navigates to the home page.
-
-
-
-		
+22. videosui/src/component/logout.js: I used the useEffect hook. Whenever we click the logout button, it calls the backend logout API, removes all the tokens from local storage, and navigates to the home page.	
